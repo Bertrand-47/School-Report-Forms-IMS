@@ -1,0 +1,60 @@
+.header-image{
+    height: 150px;
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.panel-default{
+    background: #fff !important;
+    border: 1px solid #62708F;
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: none;
+    margin-top: 20px
+}
+.panel-default div.panel-heading{
+    background: #fff !important;
+    border-bottom: 0px;
+}
+.panel-default div.panel-heading span{
+    color: #e0e1e4;
+    font-size: 16px;
+    letter-spacing: 0.05cm;
+}
+.btn.btn-default{
+    background: #53607b !important;
+    border: 2px solid #58617a;
+    color: #F1F2F5;
+    border-radius: 0px;
+    letter-spacing: 0.05cm;
+}
+.btn.btn-default:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btn-default:hover{
+    background: #121721;
+}
+
+.form-control{
+    border-radius: 0px;
+    border: 1px solid #53607b;
+    letter-spacing: 0.05cm;
+}
+select.form-control{
+    border-radius: 0px;
+    border: 1px solid #53607b;
+    letter-spacing: 0.05cm;
+    -webkit-appearance: none;
+}
+
+/*div.schoollogo{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   background: white;
+   border: 1px solid #F1F2F5;
+}*/
